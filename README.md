@@ -2,7 +2,7 @@
 
 A while back I heard of a problem about chess and it intrigued me. The problem states:
 
-On a chess board 8 x 8, how many queens (we are going to refer to them as an x number of queens) can you put on the board without them being able attaching each other.
+On a chess board 8 x 8, how many queens (we are going to refer to them as a x number of queens) can you put on the board without them being able attaching each other.
 To make the problem a bit more complex how many possible arrangements/combinations of the found x number of queens can be foud for a 8 x 8 grid/board.
 
 Additionally for any given number (n >= 3 && n <= 8) calculate the x (max number of queens) and the number of possible arrangements for this queens.
