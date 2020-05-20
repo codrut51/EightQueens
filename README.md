@@ -12,6 +12,24 @@ Additionally for any given number (n >= 3 && n <= 8) calculate the x (max number
 I think someone out there can find an even better way to do this but I will choose a very popular approach to this problem.
 ##### __[Backtracking](https://en.wikipedia.org/wiki/Backtracking)__ #####
 
+#### Getting started with testing the current program
+##### Build 
+In the command line/terminal run: `./gradlew build`
+##### Running the program
+In the command line/terminal run: `java -jar build/libs/EightQueens-0.0.1.jar`
+By playing with the program and inputting all kinds of numbers it will be noticed that a StackOverflow message will appear for any number (n > 5).
+To see all result for a number n > 5 the following command needs to be ran:
+`java -jar -Xss1024m build/libs/EightQueens-0.0.1.jar` <= This command increases the stack of the current run of the java program to 1024mb.
+The -Xss attribute can have multiple values e.g.:<br/>
+`java -jar -Xss4m <path_to_jar>` <br/>
+`java -jar -Xss8m <path_to_jar>`<br/>
+`java -jar -Xss16m <path_to_jar>`<br/>
+`java -jar -Xss32m <path_to_jar>`<br/>
+`java -jar -Xss64m <path_to_jar>`<br/>
+`java -jar -Xss128m <path_to_jar>`<br/>
+`java -jar -Xss256m <path_to_jar>`<br/>
+`java -jar -Xss512m <path_to_jar>`<br/>
+`java -jar -Xss1024m <path_to_jar>`<br/>
 
 #### ToDo 
 * [x] Add main class

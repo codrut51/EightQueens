@@ -1,13 +1,16 @@
 package com.codrutmarin;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Let's backtrack");
         try{
-            System.out.println("Here!");
-            EightQueens eq = new EightQueens(3);
+            Scanner scan = new Scanner(System.in);
+            System.out.println("Input a number n => {2..9}: ");
+            int n = scan.nextInt();
+            EightQueens eq = new EightQueens(n);
             eq.compute();
-            System.out.println("Here!");
         }catch (Exception ex)
         {
             System.out.println(ex.getMessage());

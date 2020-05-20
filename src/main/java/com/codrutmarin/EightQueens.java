@@ -13,9 +13,9 @@ public class EightQueens {
      */
     public EightQueens(int n) throws Exception
     {
-        if(n <= 1)
+        if(n <= 1 || n > 9)
         {
-            throw new Exception("Invalid stack size, stack size `n` needs to be grater than 1");
+            throw new Exception("Invalid stack size, stack size `n` needs to be grater than 1 and smaller or equal with 9");
         }else {
             this.n = n;
             stack = new int[n];
