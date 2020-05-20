@@ -2,8 +2,16 @@ plugins {
     id 'java'
 }
 
-group 'org.example'
-version '1.0-SNAPSHOT'
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'com.codrutmarin.Main'
+        )
+    }
+}
+
+group 'com.codrutmarin'
+version '0.0.1'
 
 sourceCompatibility = 1.8
 
