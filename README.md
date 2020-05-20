@@ -15,7 +15,7 @@ I think someone out there can find an even better way to do this but I will choo
 
 #### ToDo 
 * [x] Add main class
-* [ ] Add backtracking class
-* [ ] Add simple logic of backtracking class (all possible arrangements for a number n)
+* [x] Add backtracking class
+* [x] Add simple logic of backtracking class (all possible permutation for a number n)
 * [ ] Improving logic for the problem at hand 
 * [ ] Build, documentation, & getting started
