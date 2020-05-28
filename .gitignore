@@ -1,5 +1,2 @@
 .idea/
 .gradle/
-build/*
-!build/build.xml
-build
