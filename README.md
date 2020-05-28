@@ -38,4 +38,4 @@ The -Xss attribute can have multiple values e.g.:<br/>
 * [x] Create visual representation
 * [x] Build program and add documentation <br/>
 ** Optionally **: 
-    * [ ] Create API to compute visual representation of the created boards on a front-end.
+    * [ ] Create API to compute visual representation of the created boards on a front-end. 
