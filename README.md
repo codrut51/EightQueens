@@ -17,8 +17,8 @@ I think someone out there can find an even better way to do this but I will choo
 In the command line/terminal run: `./gradlew build`
 ##### Running the program
 In the command line/terminal run: `java -jar build/libs/EightQueens-0.0.1.jar`
-By playing with the program and inputting all kinds of numbers it will be noticed that a StackOverflow message will appear for any number (n > 5).
-To see all result for a number n > 5 the following command needs to be ran:
+By playing with the program and inputting all kinds of numbers it will be noticed that a StackOverflow message will appear for any number (n > 9).
+To see all result for a number n > 9 the following command needs to be ran:
 `java -jar -Xss1024m build/libs/EightQueens-0.0.1.jar` <= This command increases the stack of the current run of the java program to 1024mb.
 The -Xss attribute can have multiple values e.g.:<br/>
 `java -jar -Xss4m <path_to_jar>` <br/>

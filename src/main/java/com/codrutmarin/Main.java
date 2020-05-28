@@ -9,7 +9,7 @@ public class Main {
         System.out.println("Input a number n ( n >= 4): ");
         int n = scan.nextInt();
         do{
-            if(n == 0)
+            if(n != 0)
             {
                 try {
                     EightQueens eq = new EightQueens(n);
