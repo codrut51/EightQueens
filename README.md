@@ -2,10 +2,9 @@
 
 A while back I heard of a problem about chess and it intrigued me. The problem states:
 
-On a chess board 8 x 8, how many queens (we are going to refer to them as a x number of queens) can you put on the board without them being able to attack each other.
-To make the problem a bit more complex how many possible arrangements/combinations of the found x number of queens can be computed for a 8 x 8 grid/board.
+On a chess board (8 x 8) place 8 queens so that no two queens can attack each other. As a result, the computed solutions will require that any queen added on the board should not share a row, column, or diagonals with any other queen already positioned.
 
-Additionally for any given number (n >= 4) calculate the number of possible arrangements of n queens on a table of n x n
+Additionally this problem can be scaled to any Natural Number n ( n != 2 && n != 3) where n (non-attacking) queens are placed on an n x n chessboard.
 (**Optionally**: A visual representation can be given of the possible arrangements )  
 
 ### My method of approach
@@ -37,6 +36,6 @@ The -Xss attribute can have multiple values e.g.:<br/>
 * [x] Add simple logic of backtracking class (all possible permutation for a number n)
 * [x] Improving logic for the problem at hand 
 * [x] Create visual representation
-* [x] Build, documentation, & getting started <br/>
+* [x] Build program and add documentation <br/>
 ** Optionally **: 
     * [ ] Create API to compute visual representation of the created boards on a front-end.
