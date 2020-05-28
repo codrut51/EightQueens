@@ -19,7 +19,7 @@ In the command line/terminal run: `./gradlew build`
 In the command line/terminal run: `java -jar build/libs/EightQueens-0.0.1.jar`
 By playing with the program and inputting all kinds of numbers it will be noticed that a StackOverflow message will appear for any number (n > 9).
 To see all result for a number n > 9 the following command needs to be ran:
-`java -jar -Xss1024m build/libs/EightQueens-0.0.1.jar` <= This command increases the stack of the current run of the java program to 1024mb.
+`java -jar -Xss1024m build/libs/EightQueens-0.0.1.jar` <= This command increases the stack of the current java program to 1024mb.
 The -Xss attribute can have multiple values e.g.:<br/>
 `java -jar -Xss4m <path_to_jar>` <br/>
 `java -jar -Xss8m <path_to_jar>`<br/>
