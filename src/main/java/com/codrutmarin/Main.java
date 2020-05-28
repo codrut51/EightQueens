@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Let's backtrack");
         Scanner scan = new Scanner(System.in);
-        System.out.println("Input a number n ( n >= 4): ");
+        System.out.println("Input a number n ( n != 2 && n != 3 ): ");
         int n = scan.nextInt();
         do{
             if(n != 0)
@@ -17,7 +17,7 @@ public class Main {
                 } catch (Exception ex) {
                     System.out.println(ex.getMessage());
                 }
-                System.out.println("Input a number n ( n >= 4): ");
+                System.out.println("Input a number n ( n != 2 && n != 3 ): ");
                 n = scan.nextInt();
         }
 

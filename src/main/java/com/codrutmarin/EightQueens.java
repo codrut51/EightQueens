@@ -16,8 +16,8 @@ public class EightQueens {
      * @param n the stack size
      */
     public EightQueens(int n) throws Exception {
-        if (n < 4) {
-            throw new Exception("Invalid stack size, stack size `n` needs to be grater than 3");
+        if (n == 2 || n == 3) {
+            throw new Exception("Invalid board size, the board size needs to be different than 2 & 3");
         } else {
             this.n = n;
             board = new int[n][n];
