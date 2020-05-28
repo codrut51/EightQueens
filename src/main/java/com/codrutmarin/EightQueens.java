@@ -139,7 +139,7 @@ public class EightQueens {
             }
             backtrack();
         } else {
-            System.out.println("Maximum number of arrangements is: " + count);
+            System.out.println("Maximum number of arrangements for n =" + n + "is: " + count);
         }
     }
 
